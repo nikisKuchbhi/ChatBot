@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
 <script>
 var config={
 authDomain: "chatbot-9125c.firebaseapp.com",
@@ -23,6 +23,7 @@ authDomain: "chatbot-9125c.firebaseapp.com",
 
   // Initialize Firebase
   firebase.initializeApp(config);
+  firebase.analytics();
   var db=firebase.firestore();
   var namm ="chatbot";
 </script>
