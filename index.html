@@ -7,9 +7,19 @@
 <meta name="theme-color" content="#075E54">
 <title>Chatbot WITH DATABASE</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
 <script>
+var config={
+authDomain: "chatbot-9125c.firebaseapp.com",
+    databaseURL: "https://chatbot-9125c.firebaseio.com",
+    projectId: "chatbot-9125c",
+    storageBucket: "chatbot-9125c.appspot.com",
+    messagingSenderId: "797136008154",
+    appId: "1:797136008154:web:3ea2229316c43a580a06e3",
+    measurementId: "G-94XHNV8Y1K"
+  };
 
   // Initialize Firebase
   firebase.initializeApp(config);
